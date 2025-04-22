@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+
+<body>
+
+    <img src="assets/img/Adidas_Logo.svg" alt="Adidas" width="70px">
+    <h1>Inicie sesion</h1>
+    <form action="" method="post">
+
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" required>
+
+            <label for="dni">Dni</label>
+            <input type="number" name="dni" id="dni" maxlength="8" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="fecha">Fecha de nacimiento</label>
+            <input type="date" name="fechadenacimiento" id="fecha" required>
+
+            <label for="telefono">Telefono</label>
+            <input type="number" name="telefono" id="telefono" required>
+        </fieldset>
+        <fieldset>
+            <legend>Redes sociales</legend>
+            <img src="assets/img/X_logo.jpg" alt="logox" width="35px">
+            <label for="usuariox">usuario de x</label>
+            <input type="text" name="usuario" id="usuariox">
+
+            <img src="assets/img/5968776.png" alt="ig" width="35px">
+            <label for="usuarioig">Usuario de instagram</label>
+            <input type="text" name="usuario" id="usuarioig">
+
+        </fieldset>
+        <fieldset>
+            <legend>Ubicación</legend>
+            <select name="provincia" id="provincia">
+                <option value="Buenos aires">Buenos aires</option>
+                <option value="Ciudad autonoma de buenos aires">Ciudad autonoma de buenos aires</option>
+                <option value="catamarca">Catamarca</option>
+                <option value="Chaco">Chaco</option>
+                <option value="Chubut">Chubut</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="Entre Ríos">Entre Ríos</option>
+                <option value="Formosa">Formosa</option>
+                <option value="Jujuy">Jujuy</option>
+                <option value="La Pampa">La Pampa</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Misiones">Misiones</option>
+                <option value="Neuquén">Neuquén</option>
+                <option value="Río Negro">Río Negro</option>
+                <option value="Salta"> Salta</option>
+                <option value="San Juan">San Juan</option>
+                <option value="San Luis">San Luis</option>
+                <option value="Santa Cruz">Santa Cruz</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Santiago del Estero"> Santiago del Estero</option>
+                <option value="Tierra del Fuego">Tierra del Fuego</option>
+                <option value="Tucumán">Tucumán</option>
+            </select>
+            <label for="ciudad">Ciudad</label>
+            <input type="text" name="ciudad" id="ciudad" required>
+        </fieldset>
+        <fieldset>
+            <legend>Deporte</legend>
+            <label for="gimnasioytraining">Gimnasio y training</label>
+            <input type="checkbox" name="gimnasioytraining" id="gimnasioytraining">
+
+            <label for="running">Running</label>
+            <input type="checkbox" name="running" id="running">
+
+            <label for="basquet">Básquet</label>
+            <input type="checkbox" name="basquet" id="basquet">
+
+            <label for="futbol">Fútbol</label>
+            <input type="checkbox" name="futbol" id="futbol">
+
+            <label for="outdoor">Outdoor</label>
+            <input type="checkbox" name="outdoor" id="outdoor">
+
+            <label for="natacion">Natación</label>
+            <input type="checkbox" name="natacion" id="natacion">
+
+            <label for="yoga">Yoga</label>
+            <input type="checkbox" name="yoga" id="yoga">
+
+            <label for="hockey">Hockey</label>
+            <input type="checkbox" name="hockey" id="hockey">
+
+            <label for="padel">Pádel</label>
+            <input type="checkbox" name="padel" id="padel">
+
+
+
+            <label for="rugby">Rugby</label>
+            <input type="checkbox" name="rugby" id="rugby">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Calificación</legend>
+        <textarea name="reseña" id="reseña"></textarea>
+        <label for="estrella">⭐</label>
+        <input type="checkbox" name="estrella" id="estrella">
+        <label for="estrella">⭐</label>
+        <input type="checkbox" name="estrella" id="estrella">
+        <label for="estrella">⭐</label>
+        <input type="checkbox" name="estrella" id="estrella">
+        <label for="estrella">⭐</label>
+        <input type="checkbox" name="estrella" id="estrella">
+        <label for="estrella">⭐</label>
+        <input type="checkbox" name="estrella" id="estrella">
+        </fieldset>
+        <input type="submit" value="enviar" name="enviar" id="enviar">
+    </form>
+
+</body>
+
+</html>
